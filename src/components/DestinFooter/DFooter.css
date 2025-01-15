@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.Dfooter{
+    width: 100%; 
+    max-width: 2000px;
+    height:600px;
+    background-color: #212121;
+    color: white;
+    position: absolute;
+    top: 2800px;
+    display: flex;            /* Use Flexbox */
+  justify-content: space-around; /* Adjusts spacing between children */
+  align-items: center;
+  gap: 25px;
+    
+}
+.Dfirst-section-div{
+    width: 400px;
+    height: 200px;
+    background-color: transparent;
+    margin-left: 10px;
+    color: white;
+    
+    
+
+}
+.Dmiddle-section-div{
+    width: 400px;
+    height: 200px;
+    background-color: transparent;
+    
+}
+.Dlast-section-div{
+    width: 400px;
+    height: 200px;
+    background-color: transparent;
+    
+    
+}
+.logo-div5{
+    width: 300px;
+    height: 70px;
+    background-color:transparent;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    background-image: url("https://html.geekcodelab.com/holiday-planners/assets/images/white-logo.png");
+    background-size: cover; 
+    background-position: center;
+}
+.Dholiday-discription{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+.Demail-box{
+    width: 240px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    /* background-color: transparent; */
+    position: absolute;
+    top: 340px;
+    left: 60px;
+    border: 0.5px solid #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+
+}
+.Demail-box::placeholder {
+    color: #ffffff; 
+    /* opacity: 0.7;  */
+    position: absolute;
+    left: 20px;
+}
+.Dsubmit-btn{
+    width: 100px;
+    height: 44px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 300px;
+    top: 339.5px;
+    border-radius: 0px 5px 5px 0px;
+    z-index: 10;
+    color: #fff;
+    font-weight: bold;
+    z-index: 10;
+    cursor: pointer;
+}
+.Dsubmit-txt{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.Dpayment-method1{
+    width: 250px;
+    height: 38px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: 420px;
+    border-radius: 5px;
+     background: url("https://html.geekcodelab.com/holiday-planners/assets/images/payment-companies-logo.png");
+    background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+/* .payment-method2{
+    width: 50px;
+    height: 38px;
+    background-color: blue;
+    position: absolute;
+    left: 120px;
+    top: 420px;
+    border-radius: 5px;
+     
+    background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.payment-method3{
+    width: 50px;
+    height: 38px;
+    background-color: blue;
+    position: absolute;
+    left: 180px;
+    top: 420px;
+    border-radius: 5px;
+     
+    background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.payment-method4{
+    width: 50px;
+    height: 38px;
+    background-color: blue;
+    position: absolute;
+    left: 240px;
+    top: 420px;
+    border-radius: 5px;
+     
+    background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+.Dnav-txt{
+    position: absolute;
+    top: 95px;
+    left: 500px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Dstraight-line-div{
+    width: 280px;
+    height: 0.5px;
+    background-color: #fff;
+    position: absolute;
+    top: 160px;
+    left: 500px;
+}
+.list{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    margin-bottom: 10px
+}
+.list li{
+    margin-bottom: 10px;
+}
+.Dneed-help{
+    position: absolute;
+    top: 95px;
+    left: 900px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Dstraight-line-div2{
+    width: 280px;
+    height: 0.5px;
+    background-color: #fff;
+    position: absolute;
+    top: 160px;
+    left: 860px;
+}
+.Dcall-us-line{
+    width: 2px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 180px;
+}
+.Demail-for-us-line{
+    width: 2px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 240px;
+}
+.Dlocation-line{
+    width: 2px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 300px;
+}
+.Dfollow-us-line{
+    width: 2px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 380px;
+}
+.Dcall{
+    font-size: 10px;
+    position: absolute;
+    top: 180px;
+    left: 880px;
+}
+.Dnumber{
+    font-size: 18px;
+    position: absolute;
+    top: 198px;
+    left: 880px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.Demail{
+    font-size: 10px;
+    position: absolute;
+    top: 240px;
+    left: 880px;
+}
+.Demail2{
+    font-size: 16px;
+    position: absolute;
+    top: 260px;
+    left: 880px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.Dlocation{
+    font-size: 10px;
+    position: absolute;
+    top: 300px;
+    left: 880px;
+}
+.Dlocation2{
+    font-size: 16px;
+    position: absolute;
+    top: 320px;
+    left: 880px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.Dfollow{
+    font-size: 10px;
+    position: absolute;
+    top: 380px;
+    left: 880px; 
+}
+.Dfacebook-icon2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    color: #c29d59;
+    top: 403px;
+    left: 880px;
+
+}
+.Dinstagram-icon2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    color: #c29d59;
+    top: 403px;
+    left: 920px; 
+}
+.Dtwitter-icon2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    color: #c29d59;
+    top: 403px;
+    left: 960px;
+}
+.Dstraight-line{
+    width: 90%;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    top:3340px;
+    left: 60px;
+}
+.Dcopyright{
+    position: absolute;
+    top:3360px ;
+    left:60px ;
+    color: #fff;
+    font-size: 12px;
+    
+}
+.Dprivacy{
+    position: absolute;
+    top:3360px ;
+    left:1000px ;
+    color: #fff;
+    font-size: 12px;
+}
+

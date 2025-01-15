@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+.main-div{
+    background-color: #2b2b2b;
+    width: 100%;
+    height: 100vh;
+    
+    
+
+}
+.links-div{
+    width: 40%;
+    height: 40vh;
+    background-color: #393939;
+    position: absolute;
+    top: 260px;
+    color: white;
+
+}
+.home{
+    position: absolute;
+    left: 80px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 20px;
+    top: 30px; 
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.about{
+    position: absolute;
+    left: 80px;
+    top: 65px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.destination{
+    position: absolute;
+    left: 80px;
+    top: 95px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer; 
+    text-decoration: none;
+    color: white;
+}
+.tour{
+    position: absolute;
+    left: 80px;
+    top: 155px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.blog{
+    position: absolute;
+    left: 80px;
+    top: 125px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+}
+.contact{
+    position: absolute;
+    left: 80px;
+    top: 185px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.logo-div{
+    width: 300px;
+    top: 70px;
+}
+.circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 370px;
+    left: 1000px;
+    z-index: 10;
+}
+.circle2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 425px;
+    left: 1000px;
+    z-index: 10;
+}
+.circle3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 480px;
+    left: 1000px;
+    z-index: 10;
+}
+.fb, .insta, .tw{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    
+}
+.fb{
+    left: 1010px;
+    top: 380px;
+    z-index: 20;
+    
+}
+.insta{
+    left: 1010px;
+    top: 435px;
+    z-index: 20;
+}
+.tw{
+    left: 1010px;
+    top: 491px;
+    z-index: 20;
+}
+.background-logo{
+    width: 215px;
+    height: 304px;
+    background-color: transparent;
+    position: absolute;
+    top: 310px;
+    left: 1020px;
+    background-image: url("https://html.geekcodelab.com/holiday-planners/assets/images/logo-icon-white.svg");
+    background-size: cover; 
+    background-position: center;
+    opacity: 10%;
+    
+}
+.links-div span:hover,
+.links-div span.active {
+  color: #c29d59; /* Highlight color */
+}
+
+/* Create the line effect using ::after */
+.links-div span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%; /* Center the line vertically over the text */
+  height: 2px; /* Thickness of the line */
+  width: 0; /* Start with width 0 */
+  background-color: #c29d59; /* Line color */
+  transform: translateY(-50%); /* Align the line to the middle of the text */
+  transition: width 0.3s ease;
+}
+
+.links-div span:hover::after,
+.links-div span.active::after {
+  width: 100%; /* Expand line width to full on hover or when active */
+}
+  /* Slide-in animation for NavPage */
+/* Full-screen and background color setup for NavPage */
+.slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-color: transparent; /* Set your desired background color */
+    animation: slideIn 1s ease forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%); /* Start from the right */
+      opacity: 0;
+      background-color: transparent;
+    }
+    100% {
+      transform: translateX(0); /* End at the original position */
+      opacity: 1;
+      background-color: transparent;
+    }
+  }
+  .closebutton{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 85%;
+    top: 5%;
+    color: white;
+  }
+  @keyframes slideOut {
+    0% {
+        transform: translateX(0); /* Start from the current position */
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%); /* Slide out to the right */
+        opacity: 0;
+    }
+}
+.closebutton {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 85%;
+    top: 5%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Add an animation to the close button when clicked */
+.closebutton.close-animate {
+    animation: slideOut 0.5s ease forwards;
+}

@@ -1,0 +1,57 @@
+.video-container {
+    position: relative;
+    height: 90vh; /* Full height of the viewport */
+    overflow: hidden;
+    top: 700px;
+    width: 100%;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -1; /* Place video behind content */
+    transform: translate(-50%, -50%);
+  }
+  
+  .content-video {
+    position: absolute; /* Keep this for centering */
+    top: 40%;
+    left: 50%;
+    min-width: 80%;
+    min-height: 70%;
+    transform: translate(-50%, -50%); /* Center the content */
+    z-index: 1; /* Place content above video */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    
+    /* Increase padding for more space inside the content */
+    /* padding: 20px; */
+    max-width: 90%; /* Limit the width */
+    
+    /* Border styles */
+    border: 5px solid #b7904d; /* Border color and thickness */
+    
+    /* Increase margin for more distance from the video border */
+    margin: 20px; /* Adjust as needed for more space */
+    font-size: 30px;
+  }
+  
+
+  
+  .content-video p {
+    color: #b7904d;
+    font-size: 25px;
+    position: absolute; 
+    left: 400px;
+    top: 200px;
+  }
+  .content-video h1{
+    position: absolute; 
+    left: 270px;
+    top: 100px;
+  }

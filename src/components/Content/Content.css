@@ -1,0 +1,1324 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+
+
+  
+  .ticket-section-div{
+    width: 1155px;
+    height: 95px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px;
+    position: absolute;
+    top: 690px;
+    left: 50px;
+    z-index: 10;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); 
+  }
+  .find-now-btn {
+    width: 100px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 25px;
+    left: 1020px;
+    border-radius: 4px;
+    color: white;
+    padding: 2px;
+    border: none; /* Remove default border */
+    overflow: hidden; /* Hide the animation overflow */
+    cursor: pointer; /* Pointer cursor for better UX */
+    font-size: 1rem; /* Adjust text size */
+    transition: color 0.3s ease; /* Smooth text color change */
+    z-index: 1; /* Ensure button is above the background */
+    display: flex; /* Center text alignment */
+    align-items: center;
+    justify-content: center;
+}
+
+.find-now-btn::before {
+    content: ""; /* Required for pseudo-element */
+    position: absolute;
+    top: -100%; /* Start above the button */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Black wipe effect */
+    transition: top 0.3s ease; /* Smooth animation */
+    z-index: 0; /* Place behind the button content */
+}
+
+.find-now-btn:hover::before {
+    top: 0; /* Slide down to cover the button */
+}
+
+.find-now-btn:hover {
+     /* Change text color on hover */
+    z-index: 2; /* Ensure text is above the black background */
+}
+
+  .find-now-txt{
+    position: absolute;
+    top: 10px;
+    left: 17px;
+  }
+  .where-to-text{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    border-radius: 4px;
+    border: 0.5px solid;
+    width: 250px;
+    height: 40px;
+    padding-right: 50px;
+  }
+  
+  .when-box{
+    position: absolute;
+    top: 25px;
+    left: 360px;
+    border-radius: 4px;
+    border: 0.5px solid;
+    width: 250px;
+    height: 40px;
+    padding-right: 50px;
+  }
+  
+  .travel-type{
+    position: absolute;
+    top: 25px;
+    left: 690px;
+    border-radius: 4px;
+    border: 0.5px solid;
+    width: 250px;
+    height: 40px;
+    padding-right: 50px;
+    /* padding: 2px 2px 2px 2px; */
+    
+  }
+  .location-icon-main{
+    color: #c29d59;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 35px ;
+    left: 35px;
+    z-index: 10;
+  }
+  .calender-icon-main{
+    color: #c29d59;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 37px ;
+    left: 370px;
+    z-index: 10;
+  }
+  .flag-icon-main{
+    color: #c29d59;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 37px ;
+    left: 700px;
+    z-index: 10;
+  }
+  .about-div{
+    position: absolute;
+    top: 1020px;
+    left: 650px;
+    /*text-align: justify;*/
+    line-height: 1.5;
+  }
+  .about-us{
+    font-weight: regular;
+    position: absolute;
+    top: -120px;
+    left: 15px ;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #c29d59;
+
+  }
+  .plan{
+    font-weight: semibold;
+    position: absolute;
+    top: -70px;
+    left: 1px ;
+    font-size: 35px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .about-us-line-div{
+    width: 2px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    top: -121px;
+    left: 1px;
+  }
+  .plan-description{
+    font-family: 'Titillium Web', sans-serif;
+  }
+  .read-more-btn {
+    width: 170px;
+    height: 50px;
+    background-color: #c29d59;
+    color: white;
+    position: absolute;
+    top: 230px;
+    border-radius: 5px;
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor on hover */
+    overflow: hidden; /* Prevent animation overflow */
+    font-size: 1rem; /* Adjust font size */
+    display: flex; /* Center text alignment */
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease; /* Smooth text color transition */
+    z-index: 1; /* Ensure text is above the pseudo-element */
+}
+
+.read-more-btn::before {
+    content: ""; /* Required for pseudo-element */
+    position: absolute;
+    top: -100%; /* Start above the button */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Black for the wipe effect */
+    transition: top 0.3s ease; /* Smooth animation */
+    z-index: 0; /* Place behind the button content */
+}
+
+.read-more-btn:hover::before {
+    top: 0; /* Slide down to cover the button */
+}
+
+.read-more-btn:hover {
+     /* Change text color to match the button's original background */
+}
+
+  .read-more-txt{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    cursor: pointer;
+  }
+  .big-picture-div{
+    width: 440px;
+    height: 450px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 50px;
+    top: 870px;
+    background-image: url("./travel1.jpg");
+    background-size: cover; 
+    background-position: center;
+    border: 3px solid #c29d59;
+    box-shadow: inset 0 0 0 8px white;
+    overflow: hidden;
+    
+  }
+  .small-picture-div{
+    width: 260px;
+    height: 190px;
+    background-color: #d8290e;
+    position: absolute;
+    left: 340px;
+    top: 1160px;
+    background-image: url("./travel2.jpg");
+    background-size: cover; 
+    background-position: center;
+    border: 3px solid #c29d59;
+    box-shadow: inset 0 0 0 6px white;
+    overflow: hidden;
+    
+  }
+  .video-section-div{
+    background: url('./highlight-video.mp4');
+    background-size: cover; 
+    background-position: center;
+    height: 83vh;
+    width: 100%;
+    /* max-width: 2500; */
+    /* display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: 0px; */
+    position: absolute;
+    top: 1450px;
+    left: 0px;
+    background-color: #7a706e;
+    overflow: hidden;
+  }
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Place behind content */
+    transform: translate(-50%, -50%);
+}
+  .stroke-shape-div{
+    width: 1100px;
+    height: 450px;
+    background-color: transparent;
+    border: 5px solid #c29d59;
+    position: absolute;
+    top: 45px;
+    left:66px;
+
+  }
+  .traveling-highlights{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 43px;
+    font-weight: bold;
+    /* color: white; */
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    color: #ffffff;
+  }
+  .idea{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: #c29d59;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+  }
+  .destination-div{
+    width: 1035px;
+    height: 130px;
+    position: absolute;
+    left: 104px;
+    top: 1950px;
+    /* background-color: #c29d59; */
+    /* background: linear-gradient(to bottom, #c29d59 80%, rgba(0, 0, 0, 0.7) 100%); */
+    background: #c29d59;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    z-index: 1;
+  }
+  .destination-small{
+    position: absolute;
+    top: 20px;
+    left: 125px;
+  }
+  .best-guarentee-div{
+    position: absolute;
+    top: 20px;
+    left: 500px
+  }
+  .top-notch-div{
+    position: absolute;
+    top: 20px;
+    left: 800px
+  }
+  .header1{
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    z-index: 10;
+  }
+  .header2{
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+    z-index: 10;
+  }
+  .header3{
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    top: 25px;
+    left: 800px;
+    z-index: 10;
+  }
+  .text1-main{
+    position: absolute;
+    top: 70px;
+    left: 125px;
+    z-index: 10;
+    font-size: 10px;
+    
+  }
+  .text2-main{
+    position: absolute;
+    top: 70px;
+    left: 460px;
+    z-index: 10;
+    font-size: 10px;
+  }
+  .text3-main{
+    position: absolute;
+    top: 70px;
+    left: 800px;
+    z-index: 10;
+    font-size: 10px;
+  }
+  .icon1{
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+    border-radius: 30px;
+     background: url("./tour-service-icon1.svg");
+    background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  top: 28px;
+  left: 50px;
+  }
+  .icon2{
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+    border-radius: 30px;
+     background: url("./tour-service-icon2.svg");
+    background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  top: 28px;
+  left: 380px;
+  }
+  .icon3{
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+    border-radius: 30px;
+     background: url("./tour-service-icon3.svg");
+    background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  top: 28px;
+  left: 700px;
+  }
+  .learn-more-div{
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 3020px;
+  }
+  .latest-news-line{
+    width: 2.5px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+  }
+  .news{
+    position: absolute;
+    left: 66px;
+    top: 15px;
+    color: #c29d59;
+  }
+  .learn{
+    position: absolute;
+    left: 50px;
+    top: 68px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+  }
+  .learn-more-btn {
+    width: 160px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 1040px;
+    top: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    overflow: hidden; /* Ensure the animation stays within the button */
+    display: flex; /* Center text alignment */
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem; /* Adjust font size as needed */
+    transition: color 0.3s ease; /* Smooth color transition for text */
+    z-index: 1; /* Ensure text stays on top of the wipe effect */
+}
+
+.learn-more-btn::before {
+    content: ""; /* Create a pseudo-element for the wipe effect */
+    position: absolute;
+    top: -100%; /* Start off-screen */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Color of the wipe effect */
+    transition: top 0.3s ease; /* Smooth sliding animation */
+    z-index: 0; /* Ensure it stays behind the text */
+}
+
+.learn-more-btn:hover::before {
+    top: 0; /* Slide down to create the wipe effect on hover */
+}
+
+.learn-more-btn:hover {
+    /* Change text color to match original background */
+}
+
+  .learn-more-txt{
+    font-weight: bold;
+    position: absolute;
+    top: 8px;
+    left: 39px;
+  }
+  .three-section-div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0px;
+    gap: 35px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+  }
+
+  .first-section{
+    width: 360px;
+    height: 400px;
+    overflow: hidden;
+  
+  }
+  .second-section{
+    width: 360px;
+    height: 400px;
+    overflow: hidden;
+    
+  }
+  .third-section{
+    width: 360px;
+    height: 400px;
+    overflow: hidden;
+  
+  }
+  
+  .section-text, .section2-text, .section3-text{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    z-index: 10;
+    
+  }
+  .section-text{
+    position: absolute;
+    top: 315px;
+    left: 37px;
+  }
+  .section2-text{
+    position: absolute;
+    top: 315px;
+    left: 437px;
+  }
+  .section3-text{
+    position: absolute;
+    top: 315px;
+    left: 837px;
+  }
+  .section-date{
+    position: absolute;
+    top: 345px;
+    left: 37px;
+    color: #ffffff;
+    z-index: 10;
+  }
+  .section2-date{
+    position: absolute;
+    top: 345px;
+    left: 437px;
+    color: #ffffff;
+    z-index: 10;
+  }
+  .section3-date{
+    position: absolute;
+    top: 345px;
+    left: 837px;
+    color: #ffffff;
+    z-index: 10;
+  }
+.holiday-planner-section{
+  width: 100%;
+  height: 400px;
+  background-color: #eae9e9;
+  position: absolute;
+  top: 3600px;
+}
+.instagram-line{
+  width: 2.5px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+}
+.instatxt{
+  position: absolute;
+    left: 66px;
+    top: 62px;
+    color: #c29d59;
+}
+.holiday{
+  position: absolute;
+    left: 50px;
+    top: 108px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.photo-section{
+  display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0px;
+    gap: 26px;
+    position: absolute;
+    top: 185px;
+    left: 50px;
+
+}
+.section1{
+  width: 170px;
+  height: 150px;
+  background-color: aqua;
+  /* position: absolute;
+  top: 180px;
+  left: 50px; */
+  
+    
+  overflow: hidden;
+}
+.section2{
+  width: 170px;
+  height: 150px;
+  background-color: aqua;
+  /* position: absolute;
+  top: 180px;
+  left: 50px; */
+  overflow: hidden;
+}
+.section3{
+  width: 170px;
+  height: 150px;
+  background-color: aqua;
+  /* position: absolute;
+  top: 180px;
+  left: 50px; */
+  
+  overflow: hidden;
+}
+.section4{
+  width: 170px;
+  height: 150px;
+  background-color: aqua;
+  /* position: absolute;
+  top: 180px;
+  left: 50px; */
+  
+  overflow: hidden;
+}
+.section5{
+  width: 170px;
+  height: 150px;
+  background-color: aqua;
+  /* position: absolute;
+  top: 180px;
+  left: 50px; */
+  
+  overflow: hidden;
+}
+.section6{
+  width: 170px;
+  height: 150px;
+  background-color: aqua;
+  /* position: absolute;
+  top: 180px;
+  left: 50px; */
+  background: url("https://html.geekcodelab.com/holiday-planners/assets/images/instagram-image3.jpg");
+    
+  overflow: hidden;
+}
+.blog-img2 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.7s;
+  filter: brightness(0.9);
+  z-index: 20;
+}
+
+.blog-img2:hover {
+  transform: scale(1.2) rotate(5deg); /* Scale up and rotate slightly to the right */
+}
+.amazing-tours-section{
+  background-color: #e2e2e2;
+  width: 100%;
+  height: 950px;
+  position: absolute;
+  top: 2000px;
+  /* background: url("");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 50%; */
+}
+.amazing-tour-line{
+  width: 2px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 104px;
+    top: 150px;
+}
+.amazing{
+  position: absolute;
+  left: 120px;
+  top: 150px;
+  color: #c29d59;
+}
+.trending{
+  position: absolute;
+  left: 104px;
+  top: 200px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 35px;
+}
+.image-section{
+  display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0px;
+    gap: 26px;
+    position: absolute;
+    top: 330px;
+    left: 104px;
+}
+
+.image1{
+  width: 325px;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-left: 2.5px solid #c29d59;
+  
+  
+}
+.image2{
+  width: 325px;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-left: 2.5px solid #c29d59;
+  
+}
+.image3{
+  width: 325px;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-left: 2.5px solid #c29d59;
+  
+}
+.image1-child{
+  width: 325px;
+  height: 200px;
+  background-color: #ffffff;
+  background: url("https://images.pexels.com/photos/28551868/pexels-photo-28551868/free-photo-of-historic-parthenon-in-athens-greece.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image2-child{
+  width: 325px;
+  height: 200px;
+  background-color: #ffffff;
+  background: url("https://images.pexels.com/photos/6187742/pexels-photo-6187742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image3-child{
+  width: 325px;
+  height: 200px;
+  background-color: #ffffff;
+  background: url("https://images.pexels.com/photos/263950/pexels-photo-263950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.prev,
+.next {
+    width: 80px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    color: #ffffff;
+    border: none; /* Remove default border */
+     /* Optional rounded corners */
+    overflow: hidden; /* Ensure animation stays within bounds */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: flex; /* Center align content */
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem; /* Optional: Adjust text size */
+    transition: color 0.3s ease; /* Smooth text color transition */
+    z-index: 1; /* Keep text above background */
+}
+
+.prev {
+    top: 200px;
+    left: 1055px;
+}
+
+.next {
+    top: 250px;
+    left: 1055px;
+}
+
+.prev::before,
+.next::before {
+    content: ""; /* Pseudo-element for animation */
+    position: absolute;
+    top: -100%; /* Start above button */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Wipe effect color */
+    transition: top 0.3s ease; /* Smooth animation */
+    z-index: 0; /* Behind the button text */
+}
+
+.prev:hover::before,
+.next:hover::before {
+    top: 0; /* Slide down to cover the button */
+}
+
+.prev:hover,
+.next:hover {
+    /* Change text color to contrast with black */
+}
+
+.prev-txt{
+  position: absolute;
+  top: 8px;
+  left: 25px;
+}
+
+.next-txt{
+  position: absolute;
+  top: 8px;
+  left: 25px;
+}
+.coutry-div{
+  width: 85px;
+  height: 35px;
+  background-color: #c29d59;
+  position: absolute;
+  top: 183px;
+  left: 20px;
+  color: #ffffff;
+}
+.greece{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 6px;
+  left: 12px;
+}
+.holiday-planner{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 235px;
+  left: 20px;
+  font-size: 18px;
+}
+.content-main{
+  opacity: 50%;
+  font-size: 14px;
+  position: absolute;
+  left: 20px;
+  top: 290px;
+  text-align: justify;
+}
+.clock-icon{
+  color: #c29d59;
+  position: absolute;
+  top: 354px;
+  font-size: 20px;
+  left: 20px;
+}
+.group-icon{
+  color: #c29d59;
+  position: absolute;
+  top: 354px;
+  font-size: 20px;
+  left: 172px;
+}
+.duration{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 352px;
+  left: 53px;
+  font-size: 14px;
+}
+.group{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 352px;
+  left: 202px;
+  font-size: 14px;
+}
+.days, .people, .days2, .people2, .days3, .people3{
+  opacity: 50%;
+  font-size: 8px;
+  position: absolute;
+  top: 370px;
+}
+.days{
+  left: 53px;
+}
+.people{
+  left: 202px;
+}
+.duration-group-secion{
+  position: relative;
+  top: -185px;
+}
+.line{
+  width: 265px;
+  height: 0.5px;
+  background-color: black;
+  position: absolute;
+  top: 350px;
+  left: 20px;
+  opacity: 30%;
+}
+.line2{
+  width: 265px;
+  height: 0.5px;
+  background-color: black;
+  position: absolute;
+  top: 415px;
+  left: 20px;
+  opacity: 30%;
+}
+.money{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 440px;
+  left: 20px;
+  font-size: 22px;
+}
+.booknow-btn {
+  width: 85px;
+  height: 35px;
+  background-color: #c29d59;
+  color: #ffffff;
+  position: absolute;
+  top: 430px;
+  left: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none; /* Remove default border */
+  cursor: pointer; /* Pointer cursor for better UX */
+  overflow: hidden; /* Ensure the wipe effect stays within the button */
+  display: flex; /* Center text alignment */
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem; /* Adjust font size for better fit */
+  transition: color 0.3s ease; /* Smooth text color transition */
+  z-index: 1; /* Keep text above the background */
+}
+
+.booknow-btn::before {
+  content: ""; /* Required for the pseudo-element */
+  position: absolute;
+  top: -100%; /* Start the animation off-screen */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Wipe effect color */
+  transition: top 0.3s ease; /* Smooth animation */
+  z-index: 0; /* Ensure it stays below the text */
+}
+
+.booknow-btn:hover::before {
+  top: 0; /* Slide down to cover the button */
+}
+
+.booknow-btn:hover {
+   /* Change the text color to match the original background */
+}
+
+.book-now{
+  font-size: 12px;
+  position: absolute;
+  top: 8px;
+  left: 11px;
+}
+/*second image styling*/
+.coutry-div2{
+  width: 85px;
+  height: 35px;
+  background-color: #c29d59;
+  position: absolute;
+  top: 183px;
+  left: 375px;
+  color: #ffffff;
+}
+.greece2{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 6px;
+  left: 12px;
+}
+.holiday-planner2{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 235px;
+  left: 375px;
+  font-size: 18px;
+}
+.content2{
+  opacity: 50%;
+  font-size: 14px;
+  position: absolute;
+  left: 375px;
+  top: 290px;
+  text-align: justify;
+}
+.clock-icon2{
+  color: #c29d59;
+  position: absolute;
+  top: 354px;
+  font-size: 20px;
+  left: 20px;
+}
+.group-icon2{
+  color: #c29d59;
+  position: absolute;
+  top: 354px;
+  font-size: 20px;
+  left: 172px;
+}
+.duration2{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 352px;
+  left: 53px;
+  font-size: 14px;
+}
+.group2{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 352px;
+  left: 202px;
+  font-size: 14px;
+}
+.days, .people, .days2, .people2, .days3, .people3{
+  opacity: 50%;
+  font-size: 8px;
+  position: absolute;
+  top: 370px;
+}
+.days2{
+  left: 53px;
+}
+.people2{
+  left: 202px;
+}
+.duration-group-secion2{
+  position: relative;
+  top: -185px;
+}
+.line3{
+  width: 265px;
+  height: 0.5px;
+  background-color: black;
+  position: absolute;
+  top: 350px;
+  left: 375px;
+  opacity: 30%;
+}
+.line4{
+  width: 265px;
+  height: 0.5px;
+  background-color: black;
+  position: absolute;
+  top: 415px;
+  left: 375px;
+  opacity: 30%;
+}
+.money2{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 440px;
+  left: 375px;
+  font-size: 22px;
+}
+.booknow-btn2 {
+  width: 85px;
+  height: 35px;
+  background-color: #c29d59;
+  color: #ffffff;
+  position: absolute;
+  top: 430px;
+  left: 555px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none; /* Remove default border */
+  cursor: pointer; /* Pointer cursor for better UX */
+  overflow: hidden; /* Ensure animation stays within the button */
+  display: flex; /* Center text alignment */
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem; /* Adjust font size for better fit */
+  transition: color 0.3s ease; /* Smooth text color transition */
+  z-index: 1; /* Keep text above the background */
+}
+
+.booknow-btn2::before {
+  content: ""; /* Required for the pseudo-element */
+  position: absolute;
+  top: -100%; /* Start the animation off-screen */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Wipe effect color */
+  transition: top 0.3s ease; /* Smooth animation */
+  z-index: 0; /* Ensure it stays below the text */
+}
+
+.booknow-btn2:hover::before {
+  top: 0; /* Slide down to cover the button */
+}
+
+.booknow-btn2:hover {
+   /* Change the text color to match the original background */
+}
+
+.book-now2{
+  font-size: 12px;
+  position: absolute;
+  top: 8px;
+  left: 11px;
+}
+/*third image styling*/
+.coutry-div3{
+  width: 85px;
+  height: 35px;
+  background-color: #c29d59;
+  position: absolute;
+  top: 183px;
+  left: 730px;
+  color: #ffffff;
+}
+.greece3{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 6px;
+  left: 12px;
+}
+.holiday-planner3{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 235px;
+  left: 730px;
+  font-size: 18px;
+}
+.content3{
+  opacity: 50%;
+  font-size: 14px;
+  position: absolute;
+  left: 730px;
+  top: 290px;
+  text-align: justify;
+}
+.clock-icon3{
+  color: #c29d59;
+  position: absolute;
+  top: 354px;
+  font-size: 20px;
+  left: 20px;
+}
+.group-icon3{
+  color: #c29d59;
+  position: absolute;
+  top: 354px;
+  font-size: 20px;
+  left: 172px;
+}
+.duration3{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 352px;
+  left: 53px;
+  font-size: 14px;
+}
+.group3{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 352px;
+  left: 202px;
+  font-size: 14px;
+}
+.days, .people, .days2, .people2, .days3, .people3{
+  opacity: 50%;
+  font-size: 8px;
+  position: absolute;
+  top: 370px;
+}
+.days3{
+  left: 53px;
+}
+.people3{
+  left: 202px;
+}
+.duration-group-secion3{
+  position: relative;
+  top: -185px;
+}
+.line5{
+  width: 265px;
+  height: 0.5px;
+  background-color: black;
+  position: absolute;
+  top: 350px;
+  left: 730px;
+  opacity: 30%;
+}
+.line6{
+  width: 265px;
+  height: 0.5px;
+  background-color: black;
+  position: absolute;
+  top: 415px;
+  left: 730px;
+  opacity: 30%;
+}
+.money3{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 440px;
+  left: 730px;
+  font-size: 22px;
+}
+.booknow-btn3 {
+  width: 85px;
+  height: 35px;
+  background-color: #c29d59;
+  color: #ffffff;
+  position: absolute;
+  top: 430px;
+  left: 912px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none; /* Remove default border */
+  cursor: pointer; /* Pointer cursor for better UX */
+  overflow: hidden; /* Ensure the wipe animation stays within the button */
+  display: flex; /* Center align text */
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem; /* Adjust font size */
+  transition: color 0.3s ease; /* Smooth text color transition */
+  z-index: 1; /* Ensure text stays above background */
+}
+
+.booknow-btn3::before {
+  content: ""; /* Pseudo-element for animation */
+  position: absolute;
+  top: -100%; /* Start off-screen */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Color for wipe effect */
+  transition: top 0.3s ease; /* Smooth transition */
+  z-index: 0; /* Ensure it's behind the button text */
+}
+
+.booknow-btn3:hover::before {
+  top: 0; /* Slide down to create the wipe effect */
+}
+
+.booknow-btn3:hover {
+   /* Change text color to match original background */
+}
+
+.book-now3{
+  font-size: 12px;
+  position: absolute;
+  top: 8px;
+  left: 11px;
+}
+
+/* Carousel Image and Slide Content */
+.slide {
+  position: relative;
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  z-index: 10;
+}
+
+.get-ready {
+  font-size: 75px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+
+.description1 {
+  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 20px;
+}
+
+/* Additional carousel styling */
+.carousel .slide img {
+  object-fit: cover;
+  height: 100vh;
+}
+BackgroundVideo{
+  position: absolute;
+  top: 2000px;
+}

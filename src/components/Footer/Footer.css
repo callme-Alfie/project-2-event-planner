@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.footer{
+    width: 100%; 
+    max-width: 2000px;
+    height:600px;
+    background-color: #212121;
+    color: white;
+    position: absolute;
+    top: 4050px;
+    display: flex;            /* Use Flexbox */
+  justify-content: space-around; /* Adjusts spacing between children */
+  align-items: center;
+  gap: 25px;
+    
+}
+.first-section-div{
+    width: 400px;
+    height: 200px;
+    background-color: transparent;
+    margin-left: 10px;
+    color: white;
+    
+    
+
+}
+.middle-section-div{
+    width: 400px;
+    height: 200px;
+    background-color: transparent;
+    
+}
+.last-section-div{
+    width: 400px;
+    height: 200px;
+    background-color: transparent;
+    
+    
+}
+.logo-div5{
+    width: 300px;
+    height: 70px;
+    background-color:transparent;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    background-image: url("https://html.geekcodelab.com/holiday-planners/assets/images/white-logo.png");
+    background-size: cover; 
+    background-position: center;
+}
+.holiday-discription{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+.email-box{
+    width: 240px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    /* background-color: transparent; */
+    position: absolute;
+    top: 340px;
+    left: 60px;
+    border: 0.5px solid #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+
+}
+.email-box::placeholder {
+    color: #ffffff; 
+    /* opacity: 0.7;  */
+    position: absolute;
+    left: 20px;
+}
+.submit-btn{
+    width: 100px;
+    height: 44px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 300px;
+    top: 339.5px;
+    border-radius: 0px 5px 5px 0px;
+    z-index: 10;
+    color: #fff;
+    font-weight: bold;
+    z-index: 10;
+    cursor: pointer;
+}
+.submit-txt{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.payment-method1{
+    width: 250px;
+    height: 38px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: 420px;
+    border-radius: 5px;
+     background: url("https://html.geekcodelab.com/holiday-planners/assets/images/payment-companies-logo.png");
+    background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+/* .payment-method2{
+    width: 50px;
+    height: 38px;
+    background-color: blue;
+    position: absolute;
+    left: 120px;
+    top: 420px;
+    border-radius: 5px;
+     
+    background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.payment-method3{
+    width: 50px;
+    height: 38px;
+    background-color: blue;
+    position: absolute;
+    left: 180px;
+    top: 420px;
+    border-radius: 5px;
+     
+    background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.payment-method4{
+    width: 50px;
+    height: 38px;
+    background-color: blue;
+    position: absolute;
+    left: 240px;
+    top: 420px;
+    border-radius: 5px;
+     
+    background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+.nav-txt{
+    position: absolute;
+    top: 95px;
+    left: 500px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.straight-line-div{
+    width: 280px;
+    height: 0.5px;
+    background-color: #fff;
+    position: absolute;
+    top: 160px;
+    left: 500px;
+}
+.list{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    margin-bottom: 10px
+}
+.list li{
+    margin-bottom: 10px;
+}
+.need-help{
+    position: absolute;
+    top: 95px;
+    left: 900px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.straight-line-div2{
+    width: 280px;
+    height: 0.5px;
+    background-color: #fff;
+    position: absolute;
+    top: 160px;
+    left: 860px;
+}
+.call-us-line{
+    width: 2px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 180px;
+}
+.email-for-us-line{
+    width: 2px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 240px;
+}
+.location-line{
+    width: 2px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 300px;
+}
+.follow-us-line{
+    width: 2px;
+    height: 40px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 380px;
+}
+.call{
+    font-size: 10px;
+    position: absolute;
+    top: 180px;
+    left: 880px;
+}
+.number{
+    font-size: 18px;
+    position: absolute;
+    top: 198px;
+    left: 880px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.email{
+    font-size: 10px;
+    position: absolute;
+    top: 240px;
+    left: 880px;
+}
+.email2{
+    font-size: 16px;
+    position: absolute;
+    top: 260px;
+    left: 880px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.location{
+    font-size: 10px;
+    position: absolute;
+    top: 300px;
+    left: 880px;
+}
+.location2{
+    font-size: 16px;
+    position: absolute;
+    top: 320px;
+    left: 880px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.follow{
+    font-size: 10px;
+    position: absolute;
+    top: 380px;
+    left: 880px; 
+}
+.facebook-icon2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    color: #c29d59;
+    top: 403px;
+    left: 880px;
+
+}
+.instagram-icon2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    color: #c29d59;
+    top: 403px;
+    left: 920px; 
+}
+.twitter-icon2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    color: #c29d59;
+    top: 403px;
+    left: 960px;
+}
+.straight-line{
+    width: 90%;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    top:4570px;
+    left: 60px;
+}
+.copyright{
+    position: absolute;
+    top:4600px ;
+    left:60px ;
+    color: #fff;
+    font-size: 12px;
+    
+}
+.privacy{
+    position: absolute;
+    top:4600px ;
+    left:1000px ;
+    color: #fff;
+    font-size: 12px;
+}
+

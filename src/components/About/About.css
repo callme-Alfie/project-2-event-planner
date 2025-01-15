@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+
+.home-div{
+    background-image: url("https://images.pexels.com/photos/1255061/pexels-photo-1255061.jpeg"); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+}
+.about-txt{
+    font-size: 95px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 420px;
+    left: 450px;
+
+}
+.next-section {
+    width: 100%;
+    height: 250px;
+    align-items: center; 
+    justify-content: center;
+}
+.next-section{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+}
+.next-sect1, .next-sect2, .next-sect3, .next-sect4{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+}
+.next-sect1{
+    position: relative;
+    top: -50px;
+}
+.next-sect1{
+    position: relative;
+    top: -50px;
+}
+.next-sect2{
+    position: relative;
+    top: -50px;
+}
+.next-sect3{
+    position: relative;
+    top: -50px;
+}
+.next-sect4{
+    position: relative;
+    top: -50px;
+}
+.bus, .hotel, .world, .clock{
+    color: #c29d59;
+    font-size: 45px;
+}
+.bus{
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+.hotel{
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+.world{
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+.clock{
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+.private, .diverse, .great, .fast{
+    font-weight: bold;
+    position: absolute;
+    top: 105px;
+}
+.private{
+    left: 48px;
+}
+.diverse{
+    left: 50px;
+}
+.great{
+    left: 80px;
+}
+.fast{
+    left: 80px;
+}
+.text1{
+    position: absolute;
+    top: 140px;
+    font-size: 14px;
+    left: 30px;
+    text-align: center;
+    opacity: 50%;
+}
+.text2{
+    position: absolute;
+    top: 140px;
+    font-size: 14px;
+    left: 30px;
+    text-align: center;
+    opacity: 50%;
+}
+.text3{
+    position: absolute;
+    top: 140px;
+    font-size: 14px;
+    left: 30px;
+    text-align: center;
+    opacity: 50%;
+}
+.text4{
+    position: absolute;
+    top: 140px;
+    font-size: 14px;
+    left: 30px;
+    text-align: center;
+    opacity: 50%;
+}
+.about-div2{
+    position: absolute;
+    top: 1230px;
+    left: 650px;
+    /*text-align: justify;*/
+    line-height: 1.5;
+  }
+  .about-us2{
+    font-weight: regular;
+    position: absolute;
+    top: -120px;
+    left: -550px ;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #c29d59;
+
+  }
+  .plan2{
+    font-weight: semibold;
+    position: absolute;
+    top: -70px;
+    left: -560px ;
+    font-size: 35px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .about-us-line-div2{
+    width: 2px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    top: -121px;
+    left: -560px;
+  }
+  .plan-description2{
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    /* top: -121px; */
+    left: -560px;
+  }
+  .read-more-btn2{
+    width: 170px;
+    height: 50px;
+    background-color: #c29d59;
+    color: white;
+    position: absolute;
+    top: 230px;
+    border-radius: 5px;
+    left: -560px;
+  }
+  .read-more-txt2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    cursor: pointer;
+  }
+  .big-picture-div2{
+    width: 440px;
+    height: 450px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 730px;
+    top: 1040px;
+    background-image: url("./travel2.jpg");
+    background-size: cover; 
+    background-position: center;
+    border: 3px solid #c29d59;
+    box-shadow: inset 0 0 0 8px white;
+    overflow: hidden;
+    
+  }
+  .small-picture-div2{
+    width: 260px;
+    height: 190px;
+    background-color: #d8290e;
+    position: absolute;
+    left: 650px;
+    top: 1360px;
+    background-image: url("./travel4.jpg");
+    background-size: cover; 
+    background-position: center;
+    border: 3px solid #c29d59;
+    box-shadow: inset 0 0 0 6px white;
+    overflow: hidden;
+    
+  }
+  .bookmarksgrove-div{
+    width: 100%;
+    height: 80vh;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 1600px;
+  }
+.alphabet-div{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 2140px;
+}
+.bookmarks-pic{
+    width: 630px;
+    height: 532px;
+    background-image: url("https://images.pexels.com/photos/28080177/pexels-photo-28080177/free-photo-of-a-japanese-style-building-with-a-roof-and-a-clock.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover; 
+    background-position: center;
+
+}
+.btext1, .btext2,.btext3,.btext4,.btext5,.btext6{
+    z-index: 1;
+    position: absolute;
+}
+.btext1{
+font-size: 43px;
+left: 700px;
+top: 70px;
+font-family: 'Cormorant Garamond', serif;
+}
+.btext2{
+left: 700px;
+top: 195px;
+line-height: 1.7;
+
+}
+
+.shape1{
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 700px;
+    top: 320px;
+}
+.shape2{
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 700px;
+    top: 390px;
+}
+.btext3{
+    position: absolute;
+    left: 745px;
+    top: 313px;
+    font-size: 14px;
+}
+.btext4{
+    position: absolute;
+    left: 745px;
+    top: 383px;
+    font-size: 14px;
+}
+.shape3{
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 1000px;
+    top: 420px;
+}
+.shape4{
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 1000px;
+    top: 370px;
+}
+.btext5{
+    position: absolute;
+    left: 1050px;
+    top: 320px;
+    font-size: 14px;
+}
+.btext6{
+    position: absolute;
+    left: 1050px;
+    top: 376px;
+    font-size: 14px;
+}
+.shape5{
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 1000px;
+    top: 320px;
+}
+.btext7{
+    position: absolute;
+    left: 1050px;
+    top: 418px;
+    font-size: 14px;
+}
+.check1,.check2,.check3,.check4,.check5{
+position: absolute;
+z-index: 1;
+color: white;
+font-size: 20px;
+}
+.check1{
+    left: 705px;
+    top: 325px;
+}
+.check2{
+    left: 705px;
+    top: 395px;
+}
+.check3{
+    left: 1005px;
+    top: 325px;
+}
+.check3{
+    left: 1005px;
+    top: 325px;
+}
+.check4{
+    left: 1005px;
+    top: 375px;
+}
+.check5{
+    left: 1005px;
+    top: 425px;
+}
+.alpha-txt1{
+font-size: 40px;
+font-family: 'Cormorant Garamond', serif;
+position: absolute;
+left:55px ;
+top: 65px;
+
+}
+.alpha-txt2{
+    position: absolute;
+    top: 135px; 
+    left: 55px;
+}
+.accomodation, .transport, .meals,.destin{
+    position: absolute;
+    top: 100px;
+    left: 660px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.accomodation{
+top: 60px;
+}
+.transport{
+    top: 125px;
+}
+.meals{
+top: 185px;
+}
+.destin{
+    top: 250px;
+}
+.accom-div{
+width: 520px;
+height: 10px;
+background-color: #f2f2f2;
+position: absolute;
+top: 97px;
+left: 660px; 
+}
+.accom-div1{
+width: 430px;
+height: 10px;
+background-color: #c29d59;
+position: absolute;
+top: 97px;
+left: 660px;
+z-index: 1;
+}
+
+.meals-div{
+    position: absolute;
+    top: 220px;
+    left: 660px;
+    width: 520px;
+    height: 10px;
+    background-color: #f2f2f2;
+}
+.meals-div1{
+    position: absolute;
+    top: 220px;
+    left: 660px;
+    background-color: #c29d59;
+    z-index: 1;
+    width: 320px;
+    height: 10px;
+}
+.transport-div{
+    position: absolute;
+    top: 285px;
+    left: 660px;
+    width: 520px;
+    height: 10px;
+    background-color: #f2f2f2;
+}
+.transport-div1{
+    position: absolute;
+    top: 285px;
+    left: 660px;
+    background-color: #c29d59;
+    z-index: 1;
+    width: 465px;
+    height: 10px;
+}
+.destin-div{
+    position: absolute;
+    top: 160px;
+    left: 660px;
+    width: 520px;
+    height: 10px;
+    background-color: #f2f2f2;
+}
+.destin-div1{
+    position: absolute;
+    top: 160px;
+    left: 660px;
+    background-color: #c29d59;
+    z-index: 1;
+    width: 497px;
+    height: 10px;
+}
+.boomark-div2{
+    width: 100%;
+    height: 80vh;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 2550px;
+}
+.holiday-planner-section-about{
+    width: 100%;
+  height: 400px;
+  background-color: #eae9e9;
+  position: absolute;
+  top: 2500px;
+}

@@ -1,0 +1,53 @@
+.get-ready3 {
+    color: white;
+    font-size: 85px;
+    position: absolute;
+    top: 190px;
+    left: 330px;
+    z-index: 10;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .description1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    top: 410px;
+    left: 360px;
+    text-align: center;
+    z-index: 10;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .content1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-div1 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .get-ready-img {
+    width: 100%;
+    filter: brightness(0.6);
+    height: 100vh;
+  }
+  
+  .travel-world-div3 {
+    width: 650px;
+    height: 100px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 295px;
+    left: 25%;
+    transform: translateX(-50%);
+    z-index: 3;
+  }
+  

@@ -1,0 +1,64 @@
+/* Carousel Image and Slide Content */
+.slide {
+  position: relative;
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  z-index: 20;
+}
+
+/* Overlay for better text readability */
+.slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity for desired effect */
+  z-index: 1;
+}
+
+/* Text Styling */
+/* .get-ready {
+  font-size: 75px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  z-index: 2;
+  position: relative;
+  color: #c29d59;
+} */
+
+.description1 {
+  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+/* Image styling */
+.carousel .slide img {
+  object-fit: cover;
+  height: 100vh;
+}
+
+/* travel-world-div styling */
+.travel-world-div {
+  width: 560px;
+  height: 100px;
+  background-color: #c29d59;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  opacity: 1; /* Ensure no opacity issues */
+}

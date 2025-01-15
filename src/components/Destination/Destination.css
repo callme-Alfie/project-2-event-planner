@@ -1,0 +1,419 @@
+.destination-home-div{
+    background-image: url("https://images.pexels.com/photos/1255061/pexels-photo-1255061.jpeg"); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+    background-color: black;
+}
+/* .destination-home-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1; 
+} */
+
+.destin-list{
+    font-size: 80px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 370px;
+    left: 380px;
+}
+.greece-picture{
+    width: 750px;
+    height: 370px;
+    background-color: aqua;
+    position: absolute;
+    top: 900px;
+    left: 60px;
+    
+    overflow: hidden;
+}
+/* .greece-picture::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.6s ease-in-out; Smooth zoom effect 
+    z-index: -1; /* Ensure the background is behind other content 
+}
+.greece-picture:hover::before {
+    transform: scale(1.1); /* Zoom in the background image 
+}*/
+.india-picture{
+    width: 360px;
+    height: 780px;
+    background-color: rgb(255, 217, 0);
+    position: absolute;
+    top: 900px;
+    left: 840px;
+    overflow: hidden; 
+}
+
+.thailand-picture{
+    width: 360px;
+    height: 330px;
+    background-color: rgb(0, 255, 55);
+    position: absolute;
+    top: 1350px;
+    left: 60px;
+    overflow: hidden; 
+}
+
+.switzerland-picture{
+    width: 360px;
+    height: 330px;
+    background-color: rgb(230, 0, 255);
+    position: absolute;
+    top: 1350px;
+    left: 450px;
+    overflow: hidden; 
+}
+
+
+.europe-picture{
+    width: 750px;
+    height: 370px;
+    background-color: rgb(83, 243, 160);
+    position: absolute;
+    top: 1770px;
+    left: 450px;
+    overflow: hidden; 
+}
+
+.canada-picture{
+    width: 360px;
+    height: 780px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 1770px;
+    left: 60px;
+    overflow: hidden; 
+}
+
+.japan-picture{
+    width: 360px;
+    height: 330px;
+    background-color: rgb(0, 255, 55);
+    position: absolute;
+    top: 2220px;
+    left: 450px;
+    overflow: hidden; 
+}
+
+.mexico-picture{
+    width: 360px;
+    height: 330px;
+    background-color: rgb(230, 0, 255);
+    position: absolute;
+    top: 2220px;
+    left: 840px;
+    overflow: hidden; 
+}
+/* .greece2-shape, .canada2-shape,.mexico2-shape,.europe2-shape,.japan2-shape,
+.switzerland2-shape,.india2-shape,.thailand2-shape{
+    font-family: 'Cormorant Garamond', serif; 
+    
+}  */
+.greece2-shape{
+    position: absolute;
+    top:1245px ;
+    left:100px ;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+}
+.greece2-shape::before {
+    content: ""; /* Pseudo-element for the highlight effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Initially hidden */
+    height: 100%;
+    background-color: #c29d59; /* Highlight color */
+    transition: width 0.3s ease; /* Smooth slide-in effect */
+    z-index: -1; /* Ensures it stays behind the text */
+}
+
+.greece2-shape:hover::before {
+    width: 100%; /* Expand fully on hover */
+}
+
+.greece2-shape:hover {
+    color: white; /* Change text color for contrast */
+}
+
+.canada2-shape{
+    position: absolute;
+    top:2525px ;
+    left:100px ;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+}
+.canada2-shape::before {
+    content: ""; /* Pseudo-element for highlight */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Initially hidden */
+    height: 100%;
+    background-color: #c29d59; /* Highlight color */
+    transition: width 0.3s ease; /* Smooth slide effect */
+    z-index: -1; /* Ensures it stays behind the text */
+}
+
+.canada2-shape:hover::before {
+    width: 100%; /* Expands fully on hover */
+}
+
+.canada2-shape:hover {
+    color: white; /* Changes text color for contrast */
+}
+.thailand2-shape{
+    position: absolute;
+    top:1654px ;
+    left:100px ;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+}
+.thailand2-shape::before {
+    content: ""; /* Pseudo-element for sliding effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Initially hidden */
+    height: 100%;
+    background-color: #c29d59; /* Highlight color */
+    transition: width 0.3s ease; /* Smooth slide-in effect */
+    z-index: -1; /* Keeps it behind the text */
+}
+
+.thailand2-shape:hover::before {
+    width: 100%; /* Expands to cover the button on hover */
+}
+
+.thailand2-shape:hover {
+    color: white; /* Changes text color for contrast */
+}
+.switzerland2-shape{
+    position: absolute;
+    top:1654px ;
+    left:490px ;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+}
+.switzerland2-shape::before {
+    content: ""; /* Pseudo-element for sliding effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Initially hidden */
+    height: 100%;
+    background-color: #c29d59; /* Highlight color */
+    transition: width 0.3s ease; /* Smooth slide-in animation */
+    z-index: -1; /* Keeps it behind the text */
+}
+
+.switzerland2-shape:hover::before {
+    width: 100%; /* Expands fully on hover */
+}
+
+.switzerland2-shape:hover {
+    color: white; /* Changes text color for contrast */
+}
+.india2-shape{
+    position: absolute;
+    top:1654px ;
+    left:880px ;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+}
+.india2-shape::before {
+    content: ""; /* Pseudo-element for sliding highlight */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Starts hidden */
+    height: 100%;
+    background-color: #c29d59; /* Highlight color */
+    transition: width 0.3s ease; /* Smooth sliding animation */
+    z-index: -1; /* Keeps highlight behind text */
+}
+
+.india2-shape:hover::before {
+    width: 100%; /* Fully covers the button on hover */
+}
+
+.india2-shape:hover {
+    color: white; /* Changes text color for contrast */
+}
+.japan2-shape{
+    position: absolute;
+    top:2525px ;
+    left:490px ;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+}
+.japan2-shape::before {
+    content: ""; /* Pseudo-element for sliding effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Initially hidden */
+    height: 100%;
+    background-color: #c29d59; /* Highlight color */
+    transition: width 0.3s ease; /* Smooth sliding effect */
+    z-index: -1; /* Keeps highlight behind the text */
+}
+
+.japan2-shape:hover::before {
+    width: 100%; /* Fully covers the button on hover */
+}
+
+.japan2-shape:hover {
+    color: white; /* Text changes to white for contrast */
+}
+.mexico2-shape{
+    position: absolute;
+    top:2525px ;
+    left:880px ;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+}
+.mexico2-shape::before {
+    content: ""; /* Pseudo-element for the sliding effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Initially hidden */
+    height: 100%;
+    background-color: #c29d59; /* Highlight color */
+    transition: width 0.3s ease; /* Smooth sliding effect */
+    z-index: -1; /* Keeps the highlight behind the text */
+}
+
+.mexico2-shape:hover::before {
+    width: 100%; /* The highlight fully covers the button on hover */
+}
+
+.mexico2-shape:hover {
+    color: white; /* Text color changes to white for contrast */
+}
+.europe2-shape{
+    position: absolute;
+    top:2115px ;
+    left:490px ;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+}
+.europe2-shape::before {
+    content: ""; /* Pseudo-element for sliding effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Initially hidden */
+    height: 100%;
+    background-color: #c29d59; /* Highlight color */
+    transition: width 0.3s ease; /* Smooth sliding effect */
+    z-index: -1; /* Ensure the background highlight stays behind the text */
+}
+
+.europe2-shape:hover::before {
+    width: 100%; /* Fully cover the button on hover */
+}
+
+.europe2-shape:hover {
+    color: white; /* Change text color to white for contrast when hovered */
+}
+.country1,.country2,.country3,.country4,.country5,.country6,.country7,.country8{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top: 6px;
+    left: 30px;
+}
+/* .country1{
+    position: absolute;
+    top: 6px;
+    left: 35px;
+}
+.country2{
+    position: absolute;
+    top: 6px;
+    left: 35px;
+} */
+ .load-more-btn{
+    width: 150px;
+    height: 50px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 2650px;
+    left: 550px;
+    z-index: 1;
+    border-radius: 5px;
+    color: white;
+ }
+ .destin-footer{
+    position: absolute;
+    top: 40px;
+ }
+ .blog-img3 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.7s;
+    filter: brightness(0.9);
+    z-index: 20;
+  }
+  
+  .blog-img3:hover {
+    transform: scale(1.2) ; /* Scale up and rotate slightly to the right */
+  }

@@ -1,0 +1,515 @@
+.blog-home-div{ 
+    
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    /* filter: brightness(0.8); */
+}
+.blog-home-image{
+    filter: brightness(0.7);
+}
+.blog-txt{
+    font-size: 90px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 560px;
+}
+/* .side-image-div{
+    width: 730px;
+    height: 700px;
+    background-color: aqua;
+    position: absolute;
+    top: 880px;
+    left: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+} */
+.image-div{
+    width: 730px;
+    height: 700px;
+    background-color: aqua;
+    position: absolute;
+    top: 810px;
+    left: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+.blog-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.7s;
+    filter: brightness(0.7);
+    z-index: 20;
+}
+.blog-img:hover{
+    transform: scale(1.2);
+}
+.search-object-div{
+    width: 350px;
+    height: 190px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 700px;
+    left: 840px;
+}
+.search-line{
+    width: 2.5px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+.search-objects-txt{
+    position: absolute;
+    left: 60px;
+    top: 42px;
+    font-weight: bold;
+}
+.blog-search1{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 50px;
+    top: 90px;
+    border-radius: 3px 0px 0px 3px;
+    border: solid 1px;
+}
+.search-icon-div{
+    width: 55px;
+    height: 45px;
+    position: absolute;
+    left: 255px;
+    top: 89.3px;
+    background-color: #c29d59;
+    border: solid 0px #c29d59;
+    cursor: pointer;
+    
+}
+.search-icon{
+    color: white;
+     /* width: 35px;
+    height: 35px; */
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    z-index: 1;
+}
+.categories-div{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 955px;
+    left: 840px;
+}
+.categories-line{
+    width: 2.5px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 40px;
+    top: 25px;
+}
+.bcategories{
+    position: absolute;
+    left: 50px;
+    top: 27px;
+    font-weight: bold;
+}
+.div-20-1{
+    width: 220px;
+    height: 43px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    z-index: 1;
+}
+.c20-1{
+    width: 55px;
+    height: 43px;
+    position: absolute;
+    left: 219px;
+    top: 0px;
+    background-color: #c29d59;
+    /* border: solid 0px #c29d59; */
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.div-20-2{
+    width: 220px;
+    height: 43px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    z-index: 1;
+}
+.div-20-3{
+    width: 220px;
+    height: 43px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    z-index: 1;
+}
+.div-20-4{
+    width: 220px;
+    height: 43px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 260px;
+    left: 40px;
+    z-index: 1;
+}
+.div-20-5{
+    width: 220px;
+    height: 43px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    z-index: 1;
+}
+.c20-2{
+    width: 55px;
+    height: 43px;
+    position: absolute;
+    left: 219px;
+    top: 0px;
+    background-color: #c29d59;
+    /* border: solid 0px #c29d59; */
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.c20-3{
+    width: 55px;
+    height: 43px;
+    position: absolute;
+    left: 219px;
+    top: 0px;
+    background-color: #c29d59;
+    /* border: solid 0px #c29d59; */
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.c20-4{
+    width: 55px;
+    height: 43px;
+    position: absolute;
+    left: 219px;
+    top: 0px;
+    background-color: #c29d59;
+    /* border: solid 0px #c29d59; */
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.c20-5{
+    width: 55px;
+    height: 43px;
+    position: absolute;
+    left: 219px;
+    top: 0px;
+    background-color: #c29d59;
+    /* border: solid 0px #c29d59; */
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.image-div2{
+    width: 730px;
+    height: 700px;
+    background-color: aqua;
+    position: absolute;
+    top: 1590px;
+    left: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+.latest-posts-div{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 1430px;
+    left: 840px;
+}
+.latest-post-line{
+    width: 2.5px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 40px;
+    top: 25px;
+}
+.latest-post-txt{
+    position: absolute;
+    left: 60px;
+    top: 27px;
+    font-weight: bold;
+}
+.lastest-pic1{
+    width: 90px;
+    height: 90px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGVER-m5mPSoX_dBqRnBha0XXd7goq7J8IFJ_SOVyiwgekn52z"); 
+    background-size: cover; 
+    background-position: center; 
+}
+.lastest-pic2{
+    width: 90px;
+    height: 90px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSO_avmY7XZlGABnpY2C5G6u21LLkMWyzYzxi4MhBEkCFtItOSQ"); 
+    background-size: cover; 
+    background-position: center;
+}
+.lastest-pic3{
+    width: 90px;
+    height: 90px;
+    background-color: #c29d59;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTcpOqlwIOdEXQ_mm_Vgvax8P0eNrpG2Ne7gEZmqBxzFbjyIFxz"); 
+    background-size: cover; 
+    background-position: center;
+}
+.way{
+    position: absolute;
+    left: 155px;
+    top: 95px;
+    font-weight: bold;
+}
+.greate{
+    position: absolute;
+    left: 155px;
+    top: 205px;
+    font-weight: bold;
+}
+.time{
+    position: absolute;
+    left: 155px;
+    top: 315px;
+    font-weight: bold;
+}
+.d1{
+    position: absolute;
+    left: 155px;
+    top: 120px;
+    font-size: 14px;
+    
+}
+.d2{
+    position: absolute;
+    left: 155px;
+    top: 230px;
+    font-size: 14px;
+    
+}
+.d3{
+    position: absolute;
+    left: 155px;
+    top: 340px;
+    font-size: 14px;
+    
+}
+.popular-tags-div{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 1930px;
+    left: 840px;
+}
+.popular-line{
+    width: 2.5px;
+    height: 30px;
+    background-color: #c29d59;
+    position: absolute;
+    left: 40px;
+    top: 25px;
+
+    
+}
+.popular-tags{
+    position: absolute;
+    left: 50px;
+    top: 27px;
+    font-weight: bold;
+}
+.image-txt-div{
+    width: 730px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1335px;
+    left: 60px;
+    border-radius: 0px 00px 10px 10px;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.image-txt-div2{
+    width: 730px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 2115px;
+    left: 60px;
+    border-radius: 0px 00px 10px 10px;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.things-japan{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+}
+.italy-small-div{
+    width: 100px;
+    height: 35px;
+    background-color: #c29d59;
+    border-radius: 5px;
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    color: white;
+}
+.italy-main{
+    position: absolute;
+    left: 30px;
+    top: 5px;
+    font-weight: bold;
+}
+.description-sec{
+    font-size: 13px;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+}
+.tag-icon, .cloc-icon,.pen-icon{
+    color: #c29d59;
+    width: 15px;
+    height: 15px;
+    
+}
+.tag-icon{
+    position: absolute;
+    top: 90px;
+    left: 300px;
+}
+.cloc-icon{
+    position: absolute;
+    top: 90px;
+    left: 180px; 
+}
+.pen-icon{
+    position: absolute;
+    top: 90px;
+    left: 420px; 
+}
+.dnation, .june, .bhplanners{
+    font-size: 12px;
+}
+.dnation{
+    position: absolute;
+    top: 86px;
+    left: 325px;
+}
+.june{
+    position: absolute;
+    top: 86px;
+    left: 205px;
+}
+.bhplanners{
+    position: absolute;
+    top: 86px;
+    left: 450px;
+}
+.world-among,.countless,.exquisite,.myself,.stroke{
+    font-size: 15px;
+    position: absolute;
+    left: 15px;
+    top: 9px;
+}
+.n1,.n2,.n3,.n4,.n5{
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 9px;
+    left: 18px;
+}
+.adventure-box,.destination-box,.map-box,.travel-box,.guide-box,.world-box{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    opacity: 60%;
+
+}
+.adventure-box{
+    top: 70px;
+    left: 40px;
+}
+.destination-box{
+    top: 70px;
+    left: 160px;
+    width: 120px;
+}
+.map-box{
+    top: 130px;
+    left: 40px;
+    width: 60px;
+} 
+.travel-box{
+    top: 130px;
+    left: 120px;
+    width: 70px;
+}
+.guide-box{
+    top: 130px;
+    left: 210px;
+    width: 70px;
+}
+.world-box{
+    top: 190px;
+    left: 40px;
+    width: 70px;
+}
+.a,.d,.m,.t,.g,.w{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}

@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+}
+
+
+
+.holiday-email {
+    position: absolute;
+    top: 25px;
+    left: 110px;
+    color: white;
+}
+
+.holiday-contact {
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    color: white;
+}
+
+.mail-icon {
+    color: #c29d59;
+    position: absolute;
+    top: 22px;
+    left: 75px;
+    font-size: 25px;
+}
+
+.phone-icon {
+    color: #c29d59;
+    position: absolute;
+    top: 22px;
+    left: 365px;
+    font-size: 20px;
+}
+
+.navbar-main {
+    width: 92vw;
+    height: 85px;
+    background-color: #ffffff;
+    position: relative; /* Initially absolute */
+    top: 60px;
+    left: 3vw;
+    z-index: 20;
+    transition: top 0.5s ease, width 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Styles when scrolling */
+  .navbar-main.scrolled {
+    position: fixed; /* Make navbar sticky */
+    top: 0; /* Stick it to the top */
+    width: 100vw;
+    left: 0;
+     /* Full width when scrolled */
+    transition-delay: 0.2s; /* Delay before the transition */
+    transition-timing-function: ease-in-out; /* Smooth easing */
+    
+  }
+.reserve-btn {
+    width: 14vw;
+    height: 7.5vh;
+    background-color: #c29d59;
+    border-radius: 5px;
+    position: absolute;
+    top: 3.2vh;
+    left: 63.6vw;
+    z-index: 10;
+    overflow: hidden;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.reserve-btn::before {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    transition: top 0.3s ease;
+    z-index: -1;
+}
+
+.reserve-btn:hover::before {
+    top: 0;
+}
+
+.reserve-btn:hover {
+    color: #c29d59;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .reserve-btn {
+        width: 18vw;
+        height: 7vh;
+        top: 4vh;
+        left: 50vw;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 480px) {
+    .reserve-btn {
+        width: 25vw;
+        height: 8vh;
+        top: 5vh;
+        left: 40vw;
+        z-index: 10;
+    }
+}
+
+/* Other responsive styles for navbar icons and layout adjustments */
+
+.search-icon-shape {
+    width: 3.7vw;
+    height: 3.7vw;
+    background-color: transparent;
+    border-radius: 30px;
+    position: absolute;
+    top: 0.1vh;
+    left: -5.5vw;
+    border: 2px solid;
+    border-color: #000000;
+    z-index: 20;
+}
+
+.three-bar {
+    width: 4vw;
+    height: 4vw;
+    background-color: #c29d59;
+    border-radius: 30px;
+    position: absolute;
+    top: 3vh;
+    left: 86vw;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.three-bar-icon {
+    width: 2vw;
+    height: 2vw;
+    position: absolute;
+    top: 25%;
+    left: 26%;
+    color: #ffffff;
+    z-index: 20;
+}
+
+@media (max-width: 768px) {
+    .three-bar {
+        width: 6vw;
+        height: 6vw;
+        top: 4vh;
+        left: 60vw;
+        z-index: 20;
+    }
+
+    .three-bar-icon {
+        width: 3.5vw;
+        height: 3.5vw;
+        top: 25%;
+        left: 25%;
+        z-index: 20;
+    }
+}
+
+@media (max-width: 480px) {
+    .three-bar {
+        width: 8vw;
+        height: 8vw;
+        top: 5vh;
+        left: 50vw;
+        z-index: 20;
+    }
+
+    .three-bar-icon {
+        width: 4vw;
+        height: 4vw;
+        top: 30%;
+        left: 30%;
+        z-index: 20;
+    }
+}
+
+.search-icon-main {
+    width: 25px;
+    height: 25px;
+    color: black;
+    position: absolute;
+    top: 14px;
+    left: -4.5vw;
+    z-index: 20;
+}
+
+@media (max-width: 768px) {
+    .search-icon-main {
+        width: 50px;
+        height: 50px;
+        top: 8px;
+        z-index: 20;
+    }
+}
+
+.reserve-txt {
+    color: #ffffff;
+    font-size: 1.8vw;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    z-index: 10;
+    font-weight: bold;
+    z-index: 20;
+}
+
+@media (max-width: 768px) {
+    .reserve-txt {
+        font-size: 3vw;
+        top: 4vh;
+        left: 50vw;
+        z-index: 20;
+    }
+}
+
+.logo {
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: -1.5px;
+    left: -1070px;
+    background-image: url("https://html.geekcodelab.com/holiday-planners/assets/images/logo.png");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.facebook-icon,
+.instagram-icon,
+.twitter-icon {
+    color: #c29d59;
+    position: absolute;
+    top: 22px;
+    font-size: 25px;
+    z-index: 20;
+}
+
+.facebook-icon {
+    left: 1000px;
+}
+
+.instagram-icon {
+    left: 1050px;
+}
+
+.twitter-icon {
+    left: 1100px;
+}
+
+.nav-bar1 {
+    width: 100%;
+    height: 70px;
+    background-color: #212121;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+
+
+/* Responsive Styles */
+
+/* For Medium Screens (Tablets and Smaller Laptops) */
+@media (max-width: 1024px) {
+    .navbar-main {
+        padding: 0 2vw;
+    }
+
+    .reserve-btn {
+        width: 18vw;
+        height: 7vh;
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        width: 120px;
+    }
+}
+
+/* For Small Screens (Mobile Devices) */
+@media (max-width: 768px) {
+    .navbar-main {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .reserve-btn {
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    .social-icons {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
+
+/* For Extra Small Screens */
+@media (max-width: 480px) {
+    .reserve-btn {
+        width: 70%;
+        height: auto;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .social-icons a {
+        font-size: 1rem;
+    }
+
+    .three-bar {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    /* Navbar Adjustments */
+    .navbar-main {
+        padding: 1vw;
+        position: absolute;
+        top: 5vh; 
+        left: 50vw;
+    }
+
+    /* Logo */
+    .logo {
+        width: 120px;
+    }
+
+    /* Social Icons */
+    .social-icons a {
+        font-size: 5.2rem;
+    }
+
+    /* Reserve Button */
+    .reserve-btn {
+        width: 18vw;
+        height: 6.5vh;
+        font-size: 0.9rem;
+    }
+
+    .reserve-btn:hover {
+        color: #ffffff;
+    }
+
+    /* Three Bar Icon */
+    .three-bar {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Search Icon */
+    .search-icon-shape {
+        width: 35px;
+        height: 35px;
+        border-width: 1.5px;
+    }
+}
+

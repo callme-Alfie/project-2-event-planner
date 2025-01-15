@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+.headline-contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.contact-img{
+  filter: brightness(0.7);
+}
+.ultra-contact {
+  font-size: 90px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+}
